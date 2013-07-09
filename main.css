@@ -1,0 +1,80 @@
+html {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10px;
+  background: black;
+  height: 4em;
+  width: 100%;
+}
+
+header ul li {
+  float:left;
+  padding: 10px;
+  list-style-type: none;
+  margin-right: 1%;
+}
+
+header ul {
+  width: 20%;
+  float:right;
+}
+
+h3 {
+  text-align:center;
+}
+
+header a {
+  color:white;
+  text-decoration: none;
+}
+
+.features div {
+  float:left;
+  width: 32%;
+  background:white;
+  border-left: 3px solid lightgray;
+  padding-left: 1%;
+}
+
+.features div:first-child{
+  border-left: 3px solid white;
+}
+
+footer {
+  clear:both;
+  width:100%;
+  text-align: center;
+  background:black;
+  color:white;
+  padding-bottom: 5px;
+}
+
+.brand {
+  font-family: "Lato", Verdana, sans-serif;
+  font-size: 3em;
+  float:left;
+}
+
+.brand a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.marketing {
+  padding: 10px;
+  margin: 1em 0;
+  background: #333;
+  color:white;
+  float:left;
+}
